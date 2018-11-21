@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Gotham;
+    src: url("./font/GothamPro.ttf");
+  }
+.border {
+  border: 2px solid black;
+  width: 100%;
+  height: 27px;
+}
+#tabs .tab {
+  display: inline-block; /* выстраиваем вкладки в один ряд */
+  padding: 5px 10px;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+  border-right: 2px solid black;
+}
+.paterns {
+    width:150px; /* ширина нашего блока */
+    height:490px; /* высота нашего блока */
+    background: #fff; /* цвет фона, белый */
+    border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+    overflow: auto; /* свойство для прокрутки по горизонтали. Автоматом, если больше блока */
+    }
+a{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: black;
+}
+body{
+    margin: 0;
+    font-family: "Gotham";
+}
